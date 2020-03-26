@@ -1,0 +1,92 @@
+:root {
+--colorwidth:20vw;
+--backgroundcolor:;
+--borders: 3px dashed green;
+}
+
+body, html 
+{
+    margin: 0;
+    padding: 0;
+}
+
+main 
+{
+   position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+section:nth-child(1){
+    height: 100vh;
+    width: var(--colorwidth);
+    background-color: var(--backgroundcolor);
+    border-right: var(--borders);
+    animation: blitz 2000ms infinite;
+/* text in der mitte bringen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-child(2)
+{
+    height: 100vh;
+    width: var(--colorwidth);
+    background-color: var(--backgroundcolor);
+    border-right: var(--borders);
+    animation: blitz 1000ms infinite;
+    /* text in der mitte bringen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+section:nth-child(3){
+    height: 100vh;
+    width: var(--colorwidth);
+    background-color: var(--backgroundcolor);
+    border-right: var(--borders);
+    animation: blitz 500ms infinite;
+    /* text in der mitte bringen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-child(4){
+    height: 100vh;
+    width: var(--colorwidth);
+    background-color: var(--backgroundcolor);
+    border-right: var(--borders);
+    animation: blitz 250ms infinite;
+    /* text in der mitte bringen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+section:nth-child(5){
+    height: 100vh;
+    width: var(--colorwidth);
+    background-color: var(--backgroundcolor);
+    border-right: var(--borders);
+    animation: blitz 125ms infinite;
+    /* text in der mitte bringen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+@keyframes blitz {
+0% {
+    background:white ;
+    color: black;
+}
+20% {
+    background:black;
+    color: white;
+}
+
+
+}
